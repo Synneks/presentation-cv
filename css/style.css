@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 
 body {
   margin: 0;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 16px;
   line-height: 1.8em;
 }
@@ -17,22 +17,24 @@ a:hover {
 }
 
 article {
-  padding:0 1em;
+  padding: 0 1em;
 }
 
-section{
+section {
   margin: 1em;
   padding: 1em;
 }
 
-header, main, footer {
+header,
+main,
+footer {
   margin: 0 auto;
 }
 
 header {
   padding: 2em;
   text-align: center;
-  background-image: url('../img/bg.jpg');
+  background-image: url("../img/bg.jpg");
   background-size: cover;
   background-position: fixed;
   color: white;
@@ -57,7 +59,8 @@ h3 {
   text-transform: uppercase;
 }
 
-h3, h4 {
+h3,
+h4 {
   font-weight: bold;
 }
 
@@ -84,7 +87,13 @@ a .fab {
   color: white;
 }
 
-.course, .skills {
+.btn {
+  padding: 5px;
+  border: 1px dashed;
+}
+
+.course,
+.skills {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -92,8 +101,7 @@ a .fab {
 }
 
 .course .title {
-  color: #5f9bc7
-;
+  color: #5f9bc7;
   -ms-flex: 0 0 33.3%;
   flex: 0 0 33.3%;
   max-width: 33%;
@@ -115,38 +123,39 @@ a .fab {
   max-width: 50%;
 }
 
-.skills .column ul, ul.job-description {
+.skills .column ul,
+ul.job-description {
   list-style-type: none;
 }
 
 .skills .column ul > li:before {
   content: "►";
   padding-right: 0.5em;
-  color: #5f9bc7
-;
+  color: #5f9bc7;
 }
 
-.school, .job-title {
+.school,
+.job-title {
   text-transform: capitalize;
 }
 
-.school span, .job-title span {
-  color: #545c6c  ;
+.school span,
+.job-title span {
+  color: #545c6c;
   text-decoration: underline;
 }
 
-ul.job-description li:before{
+ul.job-description li:before {
   content: "✔";
   padding-right: 0.5em;
-  color: #5f9bc7
-;
+  color: #5f9bc7;
 }
 
 footer {
- padding: 1em 1.5em;
- background: #2a1f3b;
- color: white;
- text-align: center;
+  padding: 1em 1.5em;
+  background: #2a1f3b;
+  color: white;
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -154,7 +163,8 @@ footer {
     display: block;
   }
 
-  .course .title, .course .description {
+  .course .title,
+  .course .description {
     max-width: 100%;
   }
 }
